@@ -20,6 +20,10 @@ app.get('/article-3', function (req,res) {
     res.send('Article 3 requested and will be served here');
 });
 
+app.get('article-fourth', function (req,res) {
+    res.send('Article 4 will never be displayed here. HAHAHAHAHAHAH');
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
