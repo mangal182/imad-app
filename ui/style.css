@@ -22,9 +22,9 @@ body {
 .box {
 max-width: 800px;
 margin: auto;
-color: #752875;
+color: magenta;
 font-family: Ariel;
-padding-top: 60px;
+padding-top: 0px;
 padding-left: 20px;
 padding-right: 20px;
             }
