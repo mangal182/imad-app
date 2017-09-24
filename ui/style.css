@@ -8,18 +8,18 @@ body {
     text-align: center;
 }
 
-text-big {
+.text-big {
     font-size: 100%;
 }
 
-bold {
+.bold {
     font-weight: bold;
 }
 
-img-medium {
+.img-medium {
     height: 100px;
 }
-container {
+.container {
 max-width: 800px;
 margin: auto;
 color: Black;
